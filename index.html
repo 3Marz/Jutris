@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tetris</title>
+		<link rel="stylesheet" type="text/css" href="./styles.css">
+		<script type="module" src="./src/main.js"></script>
+	</head>
+	<body>
+		<div class="game-container">
+			<div id="flex-container" class="flex">
+				<canvas id="game" hidden="true" width="80" height="160" style="background-color: black;"></canvas>
+				<div class="menu-container">
+						<h1>JUTRIS</h1>
+						<button id="startButton">PLAY</button>
+				</div>
+
+				<div class="side-container">
+					<div class="container">
+						<h2>SCORE</h2>
+						<h3 id="score">000000</h3>
+					</div>
+
+					<div class="container">
+						<h2>NEXT</h2>
+						<canvas id="nextpiece" width="32" height="16" style="background-color: black;"></canvas>
+					</div>
+
+					<div class="container">
+						<h2>LEVEL</h2>
+						<h3 id="level">00</h3>
+					</div>
+
+					<div class="container">
+						<h2>LINES</h2>
+						<h3 id="lines">000</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
