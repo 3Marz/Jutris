@@ -17,13 +17,13 @@ var startButton = document.getElementById("startButton")
 let blocks = []
 
 async function loadImages() {
-  const blue = await loadImage('../assets/sprites/blue.png');
-  const red = await loadImage('../assets/sprites/red.png');
-  const green = await loadImage('../assets/sprites/green.png');
-  const purple = await loadImage('../assets/sprites/purple.png');
-  const highBlue = await loadImage('../assets/sprites/highBlue.png');
-  const yellow = await loadImage('../assets/sprites/yellow.png');
-  const pink = await loadImage('../assets/sprites/pink.png');
+  const blue = await loadImage('assets/sprites/blue.png');
+  const red = await loadImage('assets/sprites/red.png');
+  const green = await loadImage('assets/sprites/green.png');
+  const purple = await loadImage('assets/sprites/purple.png');
+  const highBlue = await loadImage('assets/sprites/highBlue.png');
+  const yellow = await loadImage('assets/sprites/yellow.png');
+  const pink = await loadImage('assets/sprites/pink.png');
   blocks = [blue, red, green, purple, highBlue, yellow, pink]
 }
 
